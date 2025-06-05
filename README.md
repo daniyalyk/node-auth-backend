@@ -93,14 +93,14 @@ DB_NAME=your_database
 Each project is self-contained. To run any of them:
 
 1. Navigate to the desired project directory:
-   ```bash```
-   cd <project-directory>
+   ``` cd <project-directory> ```
+   
    
 2. Install dependencies:
-  - **npm install**
+      - ``` npm install ```
     
 3. Run the app: 
-  - **npm start**
+      - ``` npm start ```
 
 ---
 
