@@ -24,7 +24,7 @@ This repository contains **three backend authentication systems** built with Nod
 ---
 ## 📂 Project Structure
 
-node-auth-backend/
+*** node-auth-backend/
 ├── Node-Express-Mongo/
 │   ├── controllers/
 │   ├── middleware/
@@ -32,7 +32,8 @@ node-auth-backend/
 │   ├── routes/
 │   ├── .env.example
 │   └── app.js
-
+*** 
+***
 ├── Node-Express-Postgres-Sequelize/
 │   ├── controllers/
 │   ├── middleware/
@@ -41,7 +42,8 @@ node-auth-backend/
 │   ├── routes/
 │   ├── .env.example
 │   └── app.js
-
+***
+***
 └── Node-Express-Postgres-TypeORM/
     ├── src/
     │   ├── controllers/
@@ -52,7 +54,7 @@ node-auth-backend/
     ├── ormconfig.js
     ├── .env.example
     └── tsconfig.json
-
+***
 ---
 
 ## 🛠️ Tech Stack
@@ -93,8 +95,7 @@ DB_NAME=your_database
 Each project is self-contained. To run any of them:
 
 1. Navigate to the desired project directory:
-   ``` cd <project-directory> ```
-   
+       - ``` cd <project-directory> ```
    
 2. Install dependencies:
       - ``` npm install ```
