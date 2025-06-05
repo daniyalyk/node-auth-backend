@@ -24,34 +24,34 @@ This repository contains **three backend authentication systems** built with Nod
 ---
 ## 📂 Project Structure
 
-node-auth-backend/
-    ├── Node-Express-Mongo/
-        │   ├── controllers/
-        │   ├── middleware/
-        │   ├── models/
-        │   ├── routes/
-        │   ├── .env.example
-        │   └── app.js
-
-    ├── Node-Express-Postgres-Sequelize/
-        │   ├── controllers/
-        │   ├── middleware/
-        │   ├── models/
-        │   ├── migrations/
-        │   ├── routes/
-        │   ├── .env.example
-        │   └── app.js
-    
-    └── Node-Express-Postgres-TypeORM/
-        ├── src/
+    node-auth-backend/
+        ├── Node-Express-Mongo/
             │   ├── controllers/
-            │   ├── entities/
             │   ├── middleware/
+            │   ├── models/
             │   ├── routes/
-            │   └── app.ts
-        ├── ormconfig.js
-        ├── .env.example
-        └── tsconfig.json
+            │   ├── .env.example
+            │   └── app.js
+    
+        ├── Node-Express-Postgres-Sequelize/
+            │   ├── controllers/
+            │   ├── middleware/
+            │   ├── models/
+            │   ├── migrations/
+            │   ├── routes/
+            │   ├── .env.example
+            │   └── app.js
+        
+        └── Node-Express-Postgres-TypeORM/
+            ├── src/
+                │   ├── controllers/
+                │   ├── entities/
+                │   ├── middleware/
+                │   ├── routes/
+                │   └── app.ts
+            ├── ormconfig.js
+            ├── .env.example
+            └── tsconfig.json
 
 ---
 
