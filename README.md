@@ -22,7 +22,7 @@ This repository contains **three backend authentication systems** built with Nod
 - **Use case**: Decorator-based SQL solution with full TypeScript support.
 
 ---
-##📂 Project Structure
+## 📂 Project Structure
 
 node-auth-backend/
 ├── Node-Express-Mongo/
@@ -106,12 +106,19 @@ Each project is self-contained. To run any of them:
 
 ## ✨ Features
 ✅ JWT-based authentication
+
 ✅ User registration & login with bcrypt-hashed passwords
+
 ✅ Environment-based configuration with dotenv
+
 ✅ Middleware for route protection
+
 ✅ Modular and scalable architecture
+
 ✅ Support for NoSQL (MongoDB) and SQL (PostgreSQL)
+
 ✅ Sequelize & TypeORM migrations support
+
 ✅ TypeScript support in TypeORM version
 
 ---
